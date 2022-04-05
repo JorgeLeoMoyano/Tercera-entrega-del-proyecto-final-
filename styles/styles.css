@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Red+Hat+Mono:ital@1&display=swap");
+* {
+  font-family: 'Red Hat Mono', monospace;
+  padding: 0;
+  margin: 0;
+}
+
+body nav {
+  background: #ff0909;
+  background: -webkit-gradient(linear, left top, right top, color-stop(54%, rgba(255, 9, 9, 0.836572)), color-stop(95%, #e8bf0c), to(#ff9c00));
+  background: linear-gradient(90deg, rgba(255, 9, 9, 0.836572) 54%, #e8bf0c 95%, #ff9c00 100%);
+}
+
+body nav .colorSubnav {
+  background-color: #ff0909;
+}
+
+body nav div a {
+  color: rgba(95, 87, 86, 0.452);
+}
+
+body nav div a span {
+  font-family: Pacifico;
+}
+
+body .carousel-inner {
+  max-height: 30rem;
+}
+
+body .colorFondo {
+  background-color: rgba(95, 87, 86, 0.452);
+}
+
+body .colorFondo {
+  background-color: rgba(95, 87, 86, 0.452);
+}
+
+body footer .colorNav {
+  background: #ff0909;
+  background: -webkit-gradient(linear, left top, right top, color-stop(54%, rgba(255, 9, 9, 0.836572)), color-stop(95%, #e8bf0c), to(#ff9c00));
+  background: linear-gradient(90deg, rgba(255, 9, 9, 0.836572) 54%, #e8bf0c 95%, #ff9c00 100%);
+}
+
+@media (max-width: 768px) {
+  body #intro {
+    width: 90% !important;
+  }
+}
+
+body .transform:hover {
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */

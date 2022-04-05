@@ -1,0 +1,56 @@
+body{
+    //incia nav//
+    nav{
+        .colorSubnav{
+        background-color:$color-background;}
+        background: $color-background;
+        background: linear-gradient(90deg, rgba(255,9,9,0.8365721288515406) 54%, rgba(232,191,12,1) 95%, rgba(255,156,0,1) 100%);
+
+        div{
+            a{
+                color:$second-color-background;
+                span{
+                    font-family:$font-pacifico;
+                }
+            }   
+        }
+    }
+    //inicia slider de imagenes
+
+    .carousel-inner{
+    max-height: 30rem;
+    }
+    //incia form
+    .colorFondo{
+        background-color: $second-color-background;
+    }
+    //inicia forms
+    .colorFondo{
+        background-color: $second-color-background;
+    }
+
+    //inicia footer
+    footer{
+        .colorNav {
+            background: $color-background;
+            background: linear-gradient(90deg, rgba(255,9,9,0.8365721288515406) 54%, rgba(232,191,12,1) 95%, rgba(255,156,0,1) 100%);
+        }
+    }
+
+    //media queries Pantalla SM
+    @media (max-width:768px){
+        #intro{
+            width:90% !important;
+        }
+    }
+
+    //animaciones
+    .transform:hover{
+        transform:translateY(-20px);
+        -webkit-transform:translateY(-20px);
+        -moz-transform:translateY(-20px);
+        -ms-transform:translateY(-20px);
+        -o-transform:translateY(-20px);
+        cursor:pointer;
+        }
+}
