@@ -1,0 +1,22 @@
+//mixin//
+@mixin navBar ($font-s, $color){
+    font-size: $font-s;
+    background-color: $color;
+}
+
+
+//incia nav//
+
+nav{
+    background-color: $second-color-background;
+
+    div{
+        a{
+            @include navBar(2rem,$second-color-background );
+        }
+        a:hover{
+            color:gold;
+            text-shadow: 1px 1px 2px black
+        }
+    }
+}

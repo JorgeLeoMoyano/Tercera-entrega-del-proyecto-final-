@@ -1,0 +1,23 @@
+$font: (
+    h1:4rem,
+    h2:2rem,
+    h3:1.5rem,
+    h4:1rem,
+);
+
+$h1: map-get($font, h1);
+
+.letras{
+        font-size:$h1;
+        font-family: 'Satisfy', cursive;
+        color:rgb(0, 0, 0);}
+
+header{
+    background-color:$color-background;
+    div{
+        span:hover{
+            color:rgb(17, 224, 34);
+            text-shadow: 1px 1px 2px black
+        }
+    }
+}

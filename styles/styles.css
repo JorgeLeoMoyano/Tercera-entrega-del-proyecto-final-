@@ -1,58 +1,44 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Red+Hat+Mono:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Lalezar&family=Satisfy&family=Send+Flowers&family=Source+Code+Pro:wght@300&display=swap");
 * {
-  font-family: 'Red Hat Mono', monospace;
+  font-family: 'Caveat', cursive;
   padding: 0;
   margin: 0;
 }
 
-body nav {
-  background: #ff0909;
-  background: -webkit-gradient(linear, left top, right top, color-stop(54%, rgba(255, 9, 9, 0.836572)), color-stop(95%, #e8bf0c), to(#ff9c00));
-  background: linear-gradient(90deg, rgba(255, 9, 9, 0.836572) 54%, #e8bf0c 95%, #ff9c00 100%);
+.letras {
+  font-size: 4rem;
+  font-family: 'Satisfy', cursive;
+  color: black;
 }
 
-body nav .colorSubnav {
-  background-color: #ff0909;
+header {
+  background-color: #97dbae;
 }
 
-body nav div a {
-  color: rgba(95, 87, 86, 0.452);
+header div span:hover {
+  color: #11e022;
+  text-shadow: 1px 1px 2px black;
 }
 
-body nav div a span {
-  font-family: Pacifico;
+nav {
+  background-color: #c3e5ae;
 }
 
-body .carousel-inner {
+nav div a {
+  font-size: 2rem;
+  background-color: #c3e5ae;
+}
+
+nav div a:hover {
+  color: gold;
+  text-shadow: 1px 1px 2px black;
+}
+
+.carousel-inner {
   max-height: 30rem;
 }
 
-body .colorFondo {
-  background-color: rgba(95, 87, 86, 0.452);
-}
-
-body .colorFondo {
-  background-color: rgba(95, 87, 86, 0.452);
-}
-
-body footer .colorNav {
-  background: #ff0909;
-  background: -webkit-gradient(linear, left top, right top, color-stop(54%, rgba(255, 9, 9, 0.836572)), color-stop(95%, #e8bf0c), to(#ff9c00));
-  background: linear-gradient(90deg, rgba(255, 9, 9, 0.836572) 54%, #e8bf0c 95%, #ff9c00 100%);
-}
-
-@media (max-width: 768px) {
-  body #intro {
-    width: 90% !important;
-  }
-}
-
-body .transform:hover {
-  transform: translateY(-20px);
-  -webkit-transform: translateY(-20px);
-  -moz-transform: translateY(-20px);
-  -ms-transform: translateY(-20px);
-  -o-transform: translateY(-20px);
-  cursor: pointer;
+footer {
+  background-color: #f4bbbb;
 }
 /*# sourceMappingURL=styles.css.map */

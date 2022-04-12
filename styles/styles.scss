@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Red+Hat+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lalezar&family=Satisfy&family=Send+Flowers&family=Source+Code+Pro:wght@300&display=swap');
 *{
-    font-family: 'Red Hat Mono', monospace;
+    font-family:'Caveat', cursive;
     padding:0;
     margin: 0;
 }
 @import "../components/variables";
-@import "../components/index";
+@import "../components/header";
+@import "../components/navBar";
+@import "../components/sliderImg";
+@import "../components/ejemplos-boxes";
+@import "../components/form";
+@import "../components/footer";
