@@ -15,10 +15,6 @@
     />
     <!--======wow.js=====-->
     <link rel="stylesheet" href="styles/animate.css" />
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
     <!--==========================================-->
     <!--css-->
     <link rel="stylesheet" href="styles/styles.css" />
@@ -164,7 +160,7 @@
       <div class="container-fluid wow bounce">
         <div class="row">
           <article
-            class="col-sm-12 col-md-6 col-lg-3 pb-sm-3 transform shadow-lg p-3 mb-5 bg-body rounded"
+            class="col-sm-12 col-md-6 col-lg-3 pb-sm-3 transform shadow-lg p-3 mb-5 bg-body rounded animaciones"
           >
             <img
               src="img/producto1.jpeg"
@@ -175,7 +171,7 @@
           </article>
           <!--end box1-->
           <article
-            class="col-sm-12 col-md-6 col-lg-3 pb-sm-3 transform shadow-lg p-3 mb-5 bg-body rounded"
+            class="col-sm-12 col-md-6 col-lg-3 pb-sm-3 transform shadow-lg p-3 mb-5 bg-body rounded animaciones"
           >
             <img
               src="img/producto2.jpeg"
@@ -186,7 +182,7 @@
           </article>
           <!--end box2-->
           <article
-            class="col-sm-12 col-md-6 col-lg-3 pb-sm-3 transform shadow-lg p-3 mb-5 bg-body rounded"
+            class="col-sm-12 col-md-6 col-lg-3 pb-sm-3 transform shadow-lg p-3 mb-5 bg-body rounded animaciones"
           >
             <img
               src="img/producto1.jpeg"
@@ -197,7 +193,7 @@
           </article>
           <!--end box3-->
           <article
-            class="col-sm-12 col-md-6 col-lg-3 pb-sm-3 transform shadow-lg p-3 mb-5 bg-body rounded"
+            class="col-sm-12 col-md-6 col-lg-3 pb-sm-3 transform shadow-lg p-3 mb-5 bg-body rounded animaciones"
           >
             <img
               src="img/producto3.jpeg"
@@ -217,19 +213,19 @@
     <!--==========================================-->
     <div class="formulario " id="contacto">
         <div class="mb-3 m-3">
-          <h2 class="text-center" >Contacto</h2>
-            <label for="exampleFormControlInput1" class="form-label"
+          <h2 class="text-center fs-1" >Contacto</h2>
+            <label for="exampleFormControlInput1" class="form-label fs-2"
              >ingrese su mail</label
             >
             <input
               type="email"
-              class="form-control "
+              class="form-control fs-3"
               id="exampleFormControlInput1"
               placeholder="nombre@mail.com"
             />
     </div>
     <div class="mb-3 m-3">
-      <label for="exampleFormControlTextarea1" class="form-label"
+      <label for="exampleFormControlTextarea1" class="form-label fs-2"
         >deje su consulta</label
       >
       <textarea
@@ -237,7 +233,8 @@
         id="exampleFormControlTextarea1"
         rows="3"
       ></textarea>
-      <button type="submit" class="btn btn-danger m-2">enviar</button>
+      <!-------------para ir a la pag 404 pulsar el boton "inviar"--------------------->
+      <button type="submit" class="btn btn-danger m-2 fs-3"><a href="paginas/404.html">enviar</a></button>
     </div>
     </div>
 
@@ -272,10 +269,15 @@
     </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

@@ -5,10 +5,8 @@ $font: (
     h4:1rem,
 );
 
-$h1: map-get($font, h1);
-
 .letras{
-        font-size:$h1;
+        font-size:map-get($font, h1);
         font-family: 'Satisfy', cursive;
         color:rgb(0, 0, 0);}
 
