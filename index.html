@@ -25,7 +25,7 @@
     <!--==========================================-->
     <!--inicia nav-->
     <!--==========================================-->
-    <header>
+    <header id="inicio">
       <div class="container-fluid text-center">
           <a class="navbar-brand" href="index.html">
             <span class="fw-bold letras"> Debby</span>
@@ -61,7 +61,7 @@
                 Productos</a
               >
               <ul
-                class="dropdown-menu colorSubnav"
+              class="dropdown-menu colorSubnav"
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <li>
@@ -196,7 +196,7 @@
             class="col-sm-12 col-md-6 col-lg-3 pb-sm-3 transform shadow-lg p-3 mb-5 bg-body rounded animaciones"
           >
             <img
-              src="img/producto3.jpeg"
+              src="img/producto4.jpg"
               alt="producto"
               class="w-100 rounded-3"
             />
@@ -215,7 +215,7 @@
         <div class="mb-3 m-3">
           <h2 class="text-center fs-1" >Contacto</h2>
             <label for="exampleFormControlInput1" class="form-label fs-2"
-             >ingrese su mail</label
+            >Ingrese su mail</label
             >
             <input
               type="email"
@@ -226,7 +226,7 @@
     </div>
     <div class="mb-3 m-3">
       <label for="exampleFormControlTextarea1" class="form-label fs-2"
-        >deje su consulta</label
+        >Deje su consulta</label
       >
       <textarea
         class="form-control"
@@ -234,7 +234,7 @@
         rows="3"
       ></textarea>
       <!-------------para ir a la pag 404 pulsar el boton "inviar"--------------------->
-      <button type="submit" class="btn btn-danger m-2 fs-3"><a href="paginas/404.html">enviar</a></button>
+      <button type="submit" class="btn btn-danger m-2 fs-3"><a href="404.html">Enviar</a></button>
     </div>
     </div>
 
@@ -244,26 +244,28 @@
     <!--inician footer-->
     <!--==========================================-->
 
-    <footer class=" text-center text-white">
+    <footer class="text-center text-white colorNav">
       <div class="container p-4 pb-0">
         <section class="mb-4">
           <!-- Facebook -->
           <a href="http://www.facebook.com" alt="blank">
-            <img src="img/facebook.png" alt="facebook" />
+            <img src="../img/facebook.png" alt="facebook" class="logo-arriba"/>
           </a>
+
           <!-- Twitter -->
           <a href="https://twitter.com/" target="_blank">
-            <img src="img/twitter.png" alt="twitter" />
+            <img src="../img/twitter.png" alt="twitter" class="logo-arriba"/>
+          </a>
+
+          <a href="#inicio">
+            <img src="../img/parriba.png" alt="" class="logo-arriba">
           </a>
         </section>
       </div>
       <!-- Copyright -->
-      <div
-        class="text-center p-3"
-        style="background-color: rgba(0, 0, 0, 0.2)"
-      >
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
         © 2022 Copyright:
-        <h3>Debby alisados</h3>
+        <h3><a href="../index.html">Debby</a></h3>
       </div>
       <!-- Copyright -->
     </footer>

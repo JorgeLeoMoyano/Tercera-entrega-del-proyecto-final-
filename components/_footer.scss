@@ -2,3 +2,22 @@
 footer {
         background-color:$fourth-color-background ;
 }
+footer{
+        div{
+
+                
+                h3{
+                        font-size: 3rem;
+                        a{
+                                text-decoration: none;
+                                color:white;
+                        }
+                        a:hover{
+                                color:rgb(0, 0, 0);
+                        }
+                }
+        }
+}
+.logo-arriba{
+        width: 95px;
+}

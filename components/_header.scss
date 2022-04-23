@@ -1,6 +1,6 @@
 $font: (
-    h1:4rem,
-    h2:2rem,
+    h1:3rem,
+    h2:2.5rem,
     h3:1.5rem,
     h4:1rem,
 );
@@ -9,12 +9,11 @@ $font: (
         font-size:map-get($font, h1);
         font-family: 'Satisfy', cursive;
         color:rgb(0, 0, 0);}
-
 header{
     background-color:$color-background;
     div{
         span:hover{
-            color:rgb(17, 224, 34);
+            color:rgb(255, 255, 255);
             text-shadow: 1px 1px 2px black
         }
     }

@@ -12,30 +12,48 @@
   -o-transform: translateY(10px); }
 
 .letras, .textos {
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: 'Satisfy', cursive;
   color: black; }
 
 header {
   background-color: #97dbae; }
   header div span:hover {
-    color: #11e022;
+    color: white;
     text-shadow: 1px 1px 2px black; }
 
 nav {
   background-color: #c3e5ae; }
-  nav div a {
+  nav div li {
     font-size: 2rem;
     background-color: #c3e5ae; }
-  nav div a:hover {
-    color: gold;
+  nav div li:hover {
+    color: white;
     text-shadow: 1px 1px 2px black; }
 
 .carousel-inner {
-  max-height: 30rem; }
+  max-height: 50rem; }
+
+button a {
+  text-decoration: none;
+  color: black; }
+
+button a:hover {
+  color: white; }
 
 footer {
   background-color: #f4bbbb; }
+
+footer div h3 {
+  font-size: 3rem; }
+  footer div h3 a {
+    text-decoration: none;
+    color: white; }
+  footer div h3 a:hover {
+    color: black; }
+
+.logo-arriba {
+  width: 95px; }
 
 .container-404 {
   display: flex;
